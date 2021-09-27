@@ -1,9 +1,11 @@
 .body{
     text-align: center;
-    margin: auto;
-    max-width: 80%;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+    
 }
-
 .txt{
-
+    height: 30px;
+    width: 400px;
 }
