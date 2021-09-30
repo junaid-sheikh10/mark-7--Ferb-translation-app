@@ -2,11 +2,11 @@
 //var name=prompt("name")
 //alert(name);
 
-var txtinput=document.querySelector("#txt");
+var txtinput=document.querySelector("#input");
 //console.log(txtinput);
 
 var button=document.querySelector("#btn");
-var division=document.querySelector("#divi");
+var division=document.querySelector("#outputdiv");
 
 //var serverURL="https://api.funtranslations.com/translate/pirate.json?text=Hello%20sir%21%20my%20mother%20goes%20with%20me%20to%20the%20ocean."
 

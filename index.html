@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mark seven</title>
+    <link rel="stylesheet" href="/styles.css">
     
 </head>
-<body  style="max-width:85% ;margin: 0px auto; text-align: center ; background-color: antiquewhite;">
+<body  >
     <H1>
         Translation app
     </H1>
-
-    <textarea  id="txt" placeholder="ENter the text to be translated" style="height: 70px;width: 350px;margin-bottom: 0.8rem;"></textarea>
+    <small style="">This app translates the text into the cartoon character Ferb's Latin language</small>
     <br>
-    <button id="btn"> translate</button>
+    <div style="margin: 2rem;"></div>
+    <textarea  id="input" placeholder="ENter the text to be translated"></textarea>
     <br>
+   
+    <button id="btn"> tap to  translate</button>
+    <br>
+   
     <div style="margin:1rem"></div>
-    <h3> translated text will come below</h3>
-    <div  id="divi" style="border: 1px solid black;height: 70px;width: 350px; margin: auto; background-color: white;">
-
-    </div>
+   
+    <h3> translated text will come below</h3> 
+    <div width=200px; style="text-align: center;">
+        <textarea id="outputdiv" placeholder="translated text will come here"></textarea>
+        <br>
+        <img src="/images/ferb.png" alt="Ferbs latin">
+    </div  >
 
 
     <script src="code.js" type="text/javascript"></script>
